@@ -1,6 +1,10 @@
-function enviarProdutosParaFrontEnd(produtos) {
-    // Lógica para enviar os produtos para o front-end
-  }
-  
-module.exports = enviarProdutosParaFrontEnd;
-  
+let produtos = [];
+
+const adicionarProduto = (produto) => {
+  produtos.push(produto);
+};
+
+module.exports = {
+  adicionarProduto,
+  produtos,
+};
