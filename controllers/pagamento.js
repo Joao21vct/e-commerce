@@ -21,4 +21,3 @@ confirmacaoPagamentoConsumer.on('message', async function(message) {
 
 });
 
-buscarCodigoRatreio()
